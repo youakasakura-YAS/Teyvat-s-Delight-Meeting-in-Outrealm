@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/heartbeat_memory",
+    "criteria":  {
+                     "has_catch_of_the_dark_depths":  {
+                                                          "conditions":  {
+                                                                             "items":  [
+                                                                                           {
+                                                                                               "items":  [
+                                                                                                             "teyvats_delight_meeting_in_outrealm:catch_of_the_dark_depths"
+                                                                                                         ]
+                                                                                           }
+                                                                                       ]
+                                                                         },
+                                                          "trigger":  "minecraft:inventory_changed"
+                                                      }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.can_this_really_be_eaten.description"
+                                    },
+                    "frame":  "goal",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:catch_of_the_dark_depths"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.can_this_really_be_eaten.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_catch_of_the_dark_depths"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

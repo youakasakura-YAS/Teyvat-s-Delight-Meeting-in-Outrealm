@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "teyvats_delight_meeting_in_outrealm:natural_shipo",
+    "teyvats_delight_meeting_in_outrealm:buried_shipo_fragment",
+    "teyvats_delight_meeting_in_outrealm:repairing_shipo",
+    "teyvats_delight_meeting_in_outrealm:intact_shipo",
+    "teyvats_delight_meeting_in_outrealm:natural_yeboshi",
+    "teyvats_delight_meeting_in_outrealm:natural_deepslate_yeboshi",
+    "teyvats_delight_meeting_in_outrealm:buried_yeboshi_fragment",
+    "teyvats_delight_meeting_in_outrealm:repairing_yeboshi",
+    "teyvats_delight_meeting_in_outrealm:intact_yeboshi",
+    "teyvats_delight_meeting_in_outrealm:natural_jinghuagusui",
+    "teyvats_delight_meeting_in_outrealm:buried_jinghuagusui_fragment",
+    "teyvats_delight_meeting_in_outrealm:repairing_jinghuagusui",
+    "teyvats_delight_meeting_in_outrealm:intact_jinghuagusui"
+  ]
+}

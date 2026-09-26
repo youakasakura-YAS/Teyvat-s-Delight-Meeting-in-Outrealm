@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "teyvats_delight_meeting_in_outrealm:fluorescent_fungus_spores"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "teyvats_delight_meeting_in_outrealm:fluorescent_fungus_crop",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "7"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "teyvats_delight_meeting_in_outrealm:fluorescent_fungus"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "teyvats_delight_meeting_in_outrealm:blocks/fluorescent_fungus_crop"
+}

@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/heartbeat_memory",
+    "criteria":  {
+                     "has_survival_grilled_fish":  {
+                                                       "conditions":  {
+                                                                          "items":  [
+                                                                                        {
+                                                                                            "items":  [
+                                                                                                          "teyvats_delight_meeting_in_outrealm:survival_grilled_fish"
+                                                                                                      ]
+                                                                                        }
+                                                                                    ]
+                                                                      },
+                                                       "trigger":  "minecraft:inventory_changed"
+                                                   }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.where_is_the_offal.description"
+                                    },
+                    "frame":  "goal",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:survival_grilled_fish"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.where_is_the_offal.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_survival_grilled_fish"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

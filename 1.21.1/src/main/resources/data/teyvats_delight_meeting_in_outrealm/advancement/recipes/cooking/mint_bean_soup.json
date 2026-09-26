@@ -1,0 +1,37 @@
+{
+    "parent":  "minecraft:recipes/root",
+    "criteria":  {
+                     "has_any_ingredient":  {
+                                                "trigger":  "minecraft:inventory_changed",
+                                                "conditions":  {
+                                                                   "items":  [
+                                                                                 {
+                                                                                     "items":  [
+                                                                                                   "teyvats_delight_meeting_in_outrealm:glabrous_beans",
+                                                                                                   "teyvats_delight_meeting_in_outrealm:mint"
+                                                                                               ]
+                                                                                 }
+                                                                             ]
+                                                               }
+                                            },
+                     "has_the_recipe":  {
+                                            "trigger":  "minecraft:recipe_unlocked",
+                                            "conditions":  {
+                                                               "recipe":  "teyvats_delight_meeting_in_outrealm:cooking/mint_bean_soup"
+                                                           }
+                                        }
+                 },
+    "requirements":  [
+                         [
+                             "has_the_recipe"
+                         ],
+                         [
+                             "has_any_ingredient"
+                         ]
+                     ],
+    "rewards":  {
+                    "recipes":  [
+                                    "teyvats_delight_meeting_in_outrealm:cooking/mint_bean_soup"
+                                ]
+                }
+}

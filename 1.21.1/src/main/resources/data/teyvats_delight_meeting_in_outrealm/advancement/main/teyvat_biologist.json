@@ -1,0 +1,51 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/got_teyvat_biological_material",
+    "criteria":  {
+                     "starconch":  {
+                                       "conditions":  {
+                                                          "items":  [
+                                                                        {
+                                                                            "items":  [
+                                                                                          "teyvats_delight_meeting_in_outrealm:starconch"
+                                                                                      ]
+                                                                        }
+                                                                    ]
+                                                      },
+                                       "trigger":  "minecraft:inventory_changed"
+                                   },
+                     "coral_pearl":  {
+                                         "conditions":  {
+                                                            "items":  [
+                                                                          {
+                                                                              "items":  [
+                                                                                            "teyvats_delight_meeting_in_outrealm:coral_pearl"
+                                                                                        ]
+                                                                          }
+                                                                      ]
+                                                        },
+                                         "trigger":  "minecraft:inventory_changed"
+                                     }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.teyvat_biologist.description"
+                                    },
+                    "frame":  "challenge",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:coral_pearl"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.teyvat_biologist.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "starconch"
+                         ],
+                         [
+                             "coral_pearl"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

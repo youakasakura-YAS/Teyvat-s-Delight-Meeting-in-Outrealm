@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.teyvats.outrealm.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "teyvats_delight_meeting_in_outrealm-refmap.json",
+  "client": [
+    "AbstractContainerScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "type":  "farmersdelight:cooking",
+    "cookingtime":  100,
+    "experience":  0.35,
+    "ingredients":  [
+                        {
+                            "tag":  "c:foods/raw_meat"
+                        },
+                        {
+                            "item":  "minecraft:wheat"
+                        },
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:glaze_lily"
+                        }
+                    ],
+    "container":  {
+                      "count":  1,
+                      "id":  "minecraft:paper"
+                  },
+    "recipe_book_tab":  "meals",
+    "result":  {
+                   "count":  1,
+                   "id":  "teyvats_delight_meeting_in_outrealm:qiankun_mora_meat"
+               }
+}

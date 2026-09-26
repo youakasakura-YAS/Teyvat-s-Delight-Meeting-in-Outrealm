@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teyvats_delight_meeting_in_outrealm:small_lamp_grass"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "teyvats_delight_meeting_in_outrealm:small_lamp_grass_seeds"
+  }
+}

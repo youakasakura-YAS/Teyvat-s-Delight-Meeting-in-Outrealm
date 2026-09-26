@@ -1,0 +1,38 @@
+{
+    "parent":  "minecraft:recipes/root",
+    "criteria":  {
+                     "has_any_ingredient":  {
+                                                "trigger":  "minecraft:inventory_changed",
+                                                "conditions":  {
+                                                                   "items":  [
+                                                                                 {
+                                                                                     "items":  [
+                                                                                                   "minecraft:cod",
+                                                                                                   "teyvats_delight_meeting_in_outrealm:salt",
+                                                                                                   "teyvats_delight_meeting_in_outrealm:primogem"
+                                                                                               ]
+                                                                                 }
+                                                                             ]
+                                                               }
+                                            },
+                     "has_the_recipe":  {
+                                            "trigger":  "minecraft:recipe_unlocked",
+                                            "conditions":  {
+                                                               "recipe":  "teyvats_delight_meeting_in_outrealm:cooking/rain_or_shine"
+                                                           }
+                                        }
+                 },
+    "requirements":  [
+                         [
+                             "has_the_recipe"
+                         ],
+                         [
+                             "has_any_ingredient"
+                         ]
+                     ],
+    "rewards":  {
+                    "recipes":  [
+                                    "teyvats_delight_meeting_in_outrealm:cooking/rain_or_shine"
+                                ]
+                }
+}

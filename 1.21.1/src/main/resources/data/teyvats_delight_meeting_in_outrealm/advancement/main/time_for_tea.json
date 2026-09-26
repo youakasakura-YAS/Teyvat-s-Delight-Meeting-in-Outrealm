@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/heartbeat_memory",
+    "criteria":  {
+                     "has_leisure_tea":  {
+                                             "conditions":  {
+                                                                "items":  [
+                                                                              {
+                                                                                  "items":  [
+                                                                                                "teyvats_delight_meeting_in_outrealm:leisure_tea"
+                                                                                            ]
+                                                                              }
+                                                                          ]
+                                                            },
+                                             "trigger":  "minecraft:inventory_changed"
+                                         }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.time_for_tea.description"
+                                    },
+                    "frame":  "goal",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:leisure_tea"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.time_for_tea.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_leisure_tea"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

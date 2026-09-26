@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "teyvats_delight_meeting_in_outrealm:jueyun_chili_seeds"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "teyvats_delight_meeting_in_outrealm:jueyun_chili_crop",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "7"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "teyvats_delight_meeting_in_outrealm:jueyun_chili"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "teyvats_delight_meeting_in_outrealm:blocks/jueyun_chili_crop"
+}

@@ -1,0 +1,516 @@
+{
+  "parent": "teyvats_delight_meeting_in_outrealm:main/elemental_taste",
+  "criteria": {
+    "mushroom_chicken_skewer": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:mushroom_chicken_skewer"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "teyvat_fried_egg": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:teyvat_fried_egg"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "teyvat_scorched_egg": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:teyvat_scorched_egg"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "fruity_skewers": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:fruity_skewers"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "grilled_steak": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:grilled_steak"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "outriders_champion_steak": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:outriders_champion_steak"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "stir_fried_filet": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:stir_fried_filet"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "radish_veggie_soup": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:radish_veggie_soup"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "mondstadt_grilled_fish": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:mondstadt_grilled_fish"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "mora_meat": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:mora_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "long_night_flame": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:long_night_flame"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "smoked_fish_steak": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:smoked_fish_steak"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "catch_of_the_dark_depths": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:catch_of_the_dark_depths"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "dark_egg": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:dark_egg"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "mint_sauce_grilled_fish": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:mint_sauce_grilled_fish"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "grainfruit_cup": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:grainfruit_cup"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "jade_pattern_tea_egg": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:jade_pattern_tea_egg"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "chenyu_tea_brew": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:chenyu_tea_brew"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "leisure_tea": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:leisure_tea"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "honey_char_siu": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:honey_char_siu"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "almond_trout": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:almond_trout"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "confit_duck_leg": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:confit_duck_leg"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "mint_bean_soup": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:mint_bean_soup"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "lambad_fish_roll": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:lambad_fish_roll"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "warmth": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:warmth"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "soba_noodles": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:soba_noodles"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "stratagem": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:stratagem"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "satiety_gel": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:satiety_gel"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "eternal_faith": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:eternal_faith"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "bird_egg_yaki": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:bird_egg_yaki"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "bird_egg_sushi": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:bird_egg_sushi"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "sweet_shrimp_sushi": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:sweet_shrimp_sushi"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "rain_or_shine": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:rain_or_shine"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "dry_braised_fish": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:dry_braised_fish"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "miso_soup": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:miso_soup"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "rice_buns": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:rice_buns"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "mint_jelly": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:mint_jelly"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "definitely_not_bar_food": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:definitely_not_bar_food"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "qiankun_mora_meat": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:qiankun_mora_meat"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "grilled_tiger_fish": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:grilled_tiger_fish"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "large_bowl_of_tea": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:large_bowl_of_tea"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "flaming_stir_fried_filet": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:flaming_stir_fried_filet"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "survival_grilled_fish": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:survival_grilled_fish"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "xian_tiao_qiang": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:xian_tiao_qiang"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "old_courtyard_smoked_sausage": {
+      "conditions": {
+        "item": {
+          "items": "teyvats_delight_meeting_in_outrealm:old_courtyard_smoked_sausage"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.teyvats_delight_meeting_in_outrealm.food_archon.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "teyvats_delight_meeting_in_outrealm:xian_tiao_qiang"
+    },
+    "title": {
+      "translate": "advancements.teyvats_delight_meeting_in_outrealm.food_archon.title"
+    }
+  },
+  "requirements": [
+    [
+      "mushroom_chicken_skewer"
+    ],
+    [
+      "teyvat_fried_egg"
+    ],
+    [
+      "teyvat_scorched_egg"
+    ],
+    [
+      "fruity_skewers"
+    ],
+    [
+      "grilled_steak"
+    ],
+    [
+      "outriders_champion_steak"
+    ],
+    [
+      "stir_fried_filet"
+    ],
+    [
+      "radish_veggie_soup"
+    ],
+    [
+      "mondstadt_grilled_fish"
+    ],
+    [
+      "mora_meat"
+    ],
+    [
+      "long_night_flame"
+    ],
+    [
+      "smoked_fish_steak"
+    ],
+    [
+      "catch_of_the_dark_depths"
+    ],
+    [
+      "dark_egg"
+    ],
+    [
+      "mint_sauce_grilled_fish"
+    ],
+    [
+      "grainfruit_cup"
+    ],
+    [
+      "jade_pattern_tea_egg"
+    ],
+    [
+      "chenyu_tea_brew"
+    ],
+    [
+      "leisure_tea"
+    ],
+    [
+      "honey_char_siu"
+    ],
+    [
+      "almond_trout"
+    ],
+    [
+      "confit_duck_leg"
+    ],
+    [
+      "mint_bean_soup"
+    ],
+    [
+      "lambad_fish_roll"
+    ],
+    [
+      "warmth"
+    ],
+    [
+      "soba_noodles"
+    ],
+    [
+      "stratagem"
+    ],
+    [
+      "satiety_gel"
+    ],
+    [
+      "eternal_faith"
+    ],
+    [
+      "bird_egg_yaki"
+    ],
+    [
+      "bird_egg_sushi"
+    ],
+    [
+      "sweet_shrimp_sushi"
+    ],
+    [
+      "rain_or_shine"
+    ],
+    [
+      "dry_braised_fish"
+    ],
+    [
+      "miso_soup"
+    ],
+    [
+      "rice_buns"
+    ],
+    [
+      "mint_jelly"
+    ],
+    [
+      "definitely_not_bar_food"
+    ],
+    [
+      "qiankun_mora_meat"
+    ],
+    [
+      "grilled_tiger_fish"
+    ],
+    [
+      "large_bowl_of_tea"
+    ],
+    [
+      "flaming_stir_fried_filet"
+    ],
+    [
+      "survival_grilled_fish"
+    ],
+    [
+      "xian_tiao_qiang"
+    ],
+    [
+      "old_courtyard_smoked_sausage"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

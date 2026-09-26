@@ -1,0 +1,66 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/got_teyvat_mineral",
+    "criteria":  {
+                     "shipo":  {
+                                   "conditions":  {
+                                                      "items":  [
+                                                                    {
+                                                                        "items":  [
+                                                                                      "teyvats_delight_meeting_in_outrealm:shipo"
+                                                                                  ]
+                                                                    }
+                                                                ]
+                                                  },
+                                   "trigger":  "minecraft:inventory_changed"
+                               },
+                     "yeboshi":  {
+                                     "conditions":  {
+                                                        "items":  [
+                                                                      {
+                                                                          "items":  [
+                                                                                        "teyvats_delight_meeting_in_outrealm:yeboshi"
+                                                                                    ]
+                                                                      }
+                                                                  ]
+                                                    },
+                                     "trigger":  "minecraft:inventory_changed"
+                                 },
+                     "jinghuagusui":  {
+                                          "conditions":  {
+                                                             "items":  [
+                                                                           {
+                                                                               "items":  [
+                                                                                             "teyvats_delight_meeting_in_outrealm:jinghuagusui"
+                                                                                         ]
+                                                                           }
+                                                                       ]
+                                                         },
+                                          "trigger":  "minecraft:inventory_changed"
+                                      }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.teyvat_mineralogist.description"
+                                    },
+                    "frame":  "challenge",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:yeboshi"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.teyvat_mineralogist.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "shipo"
+                         ],
+                         [
+                             "yeboshi"
+                         ],
+                         [
+                             "jinghuagusui"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

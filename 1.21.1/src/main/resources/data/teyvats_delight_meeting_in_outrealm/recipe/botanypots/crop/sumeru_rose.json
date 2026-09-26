@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "botanypots"
+      ]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "teyvats_delight_meeting_in_outrealm:sumeru_rose_crop"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "teyvats_delight_meeting_in_outrealm:sumeru_rose_crop",
+  "input": {
+    "item": "teyvats_delight_meeting_in_outrealm:sumeru_rose_seeds"
+  },
+  "soil": {
+    "item": "teyvats_delight_meeting_in_outrealm:ni_ci_zhi_field"
+  }
+}

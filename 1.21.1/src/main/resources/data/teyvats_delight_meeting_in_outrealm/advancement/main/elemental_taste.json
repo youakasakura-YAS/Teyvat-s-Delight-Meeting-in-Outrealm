@@ -1,0 +1,32 @@
+{
+  "parent": "teyvats_delight_meeting_in_outrealm:main/root",
+  "criteria": {
+    "eat_any_teyvat_dish": {
+      "conditions": {
+        "item": {
+          "items": "#teyvats_delight_meeting_in_outrealm:teyvat_dishes"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.teyvats_delight_meeting_in_outrealm.elemental_taste.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "teyvats_delight_meeting_in_outrealm:teyvat_fried_egg"
+    },
+    "title": {
+      "translate": "advancements.teyvats_delight_meeting_in_outrealm.elemental_taste.title"
+    }
+  },
+  "requirements": [
+    [
+      "eat_any_teyvat_dish"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

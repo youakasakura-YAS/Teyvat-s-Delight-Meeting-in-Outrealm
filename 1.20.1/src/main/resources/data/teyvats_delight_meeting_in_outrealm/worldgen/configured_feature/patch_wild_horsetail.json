@@ -1,0 +1,13 @@
+{
+  "type": "teyvats_delight_meeting_in_outrealm:wild_crop_patch",
+  "config": {
+    "state": {
+      "Name": "teyvats_delight_meeting_in_outrealm:wild_horsetail"
+    },
+    "min_count": 3,
+    "max_count": 8,
+    "xz_spread": 7,
+    "tries": 96,
+    "y_spread": 3
+  }
+}

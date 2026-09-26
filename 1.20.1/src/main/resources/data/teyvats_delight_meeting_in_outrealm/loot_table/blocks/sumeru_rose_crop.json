@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "teyvats_delight_meeting_in_outrealm:sumeru_rose_seeds"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "teyvats_delight_meeting_in_outrealm:sumeru_rose_crop",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "4"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "teyvats_delight_meeting_in_outrealm:sumeru_rose"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "teyvats_delight_meeting_in_outrealm:blocks/sumeru_rose_crop"
+}

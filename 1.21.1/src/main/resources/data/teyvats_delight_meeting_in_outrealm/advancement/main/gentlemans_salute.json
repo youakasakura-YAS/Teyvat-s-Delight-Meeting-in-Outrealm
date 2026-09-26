@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/heartbeat_memory",
+    "criteria":  {
+                     "has_long_night_flame":  {
+                                                  "conditions":  {
+                                                                     "items":  [
+                                                                                   {
+                                                                                       "items":  [
+                                                                                                     "teyvats_delight_meeting_in_outrealm:long_night_flame"
+                                                                                                 ]
+                                                                                   }
+                                                                               ]
+                                                                 },
+                                                  "trigger":  "minecraft:inventory_changed"
+                                              }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.gentlemans_salute.description"
+                                    },
+                    "frame":  "goal",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:long_night_flame"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.gentlemans_salute.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_long_night_flame"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

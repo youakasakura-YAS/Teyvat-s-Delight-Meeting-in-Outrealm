@@ -1,0 +1,25 @@
+{
+    "type":  "farmersdelight:cooking",
+    "cookingtime":  100,
+    "experience":  0.35,
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:salmon"
+                        },
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:pepper"
+                        },
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:calla_lily"
+                        }
+                    ],
+    "container":  {
+                      "count":  1,
+                      "id":  "minecraft:stick"
+                  },
+    "recipe_book_tab":  "meals",
+    "result":  {
+                   "count":  1,
+                   "id":  "teyvats_delight_meeting_in_outrealm:definitely_not_bar_food"
+               }
+}

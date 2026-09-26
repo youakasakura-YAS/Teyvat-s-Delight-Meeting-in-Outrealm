@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "teyvats_delight_meeting_in_outrealm",
+  "version": "${version}",
+  "name": "Teyvat's Delight Meeting in Outrealm",
+  "description": "A fan-made Farmer's Delight add-on inspired by the food, crops, minerals, and merchant culture of Teyvat.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.teyvats.outrealm.TeyvatDelight"
+    ],
+    "client": [
+      "com.teyvats.outrealm.TeyvatDelightClient"
+    ]
+  },
+  "mixins": [
+    "teyvats_delight_meeting_in_outrealm.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "farmersdelight": ">=1.3.2"
+  }
+}

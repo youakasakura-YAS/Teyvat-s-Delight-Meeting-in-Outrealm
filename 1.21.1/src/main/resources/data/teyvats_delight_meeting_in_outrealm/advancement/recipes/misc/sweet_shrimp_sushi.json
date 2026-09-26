@@ -1,0 +1,37 @@
+{
+    "parent":  "minecraft:recipes/root",
+    "criteria":  {
+                     "has_any_ingredient":  {
+                                                "trigger":  "minecraft:inventory_changed",
+                                                "conditions":  {
+                                                                   "items":  [
+                                                                                 {
+                                                                                     "items":  [
+                                                                                                   "teyvats_delight_meeting_in_outrealm:shrimp_meat",
+                                                                                                   "farmersdelight:cooked_rice"
+                                                                                               ]
+                                                                                 }
+                                                                             ]
+                                                               }
+                                            },
+                     "has_the_recipe":  {
+                                            "trigger":  "minecraft:recipe_unlocked",
+                                            "conditions":  {
+                                                               "recipe":  "teyvats_delight_meeting_in_outrealm:sweet_shrimp_sushi"
+                                                           }
+                                        }
+                 },
+    "requirements":  [
+                         [
+                             "has_the_recipe"
+                         ],
+                         [
+                             "has_any_ingredient"
+                         ]
+                     ],
+    "rewards":  {
+                    "recipes":  [
+                                    "teyvats_delight_meeting_in_outrealm:sweet_shrimp_sushi"
+                                ]
+                }
+}

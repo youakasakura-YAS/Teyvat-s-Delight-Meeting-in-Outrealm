@@ -1,0 +1,34 @@
+{
+    "parent":  "minecraft:recipes/root",
+    "criteria":  {
+                     "has_calla_lily":  {
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "items":  [
+                                                                                               "teyvats_delight_meeting_in_outrealm:calla_lily"
+                                                                                           ]
+                                                                             }
+                                                                         ]
+                                                           },
+                                            "trigger":  "minecraft:inventory_changed"
+                                        },
+                     "has_the_recipe":  {
+                                            "conditions":  {
+                                                               "recipe":  "teyvats_delight_meeting_in_outrealm:calla_lily_seeds"
+                                                           },
+                                            "trigger":  "minecraft:recipe_unlocked"
+                                        }
+                 },
+    "requirements":  [
+                         [
+                             "has_the_recipe",
+                             "has_calla_lily"
+                         ]
+                     ],
+    "rewards":  {
+                    "recipes":  [
+                                    "teyvats_delight_meeting_in_outrealm:calla_lily_seeds"
+                                ]
+                }
+}

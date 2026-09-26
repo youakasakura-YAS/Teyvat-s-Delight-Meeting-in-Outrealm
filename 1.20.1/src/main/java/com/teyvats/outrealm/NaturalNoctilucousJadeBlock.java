@@ -1,0 +1,90 @@
+package com.teyvats.outrealm;
+
+import com.teyvats.outrealm.TeyvatBonusDrops;
+import com.teyvats.outrealm.TeyvatDelight;
+import java.util.function.Supplier;
+import javax.annotation.Nullable;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.BushBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.VoxelShape;
+
+public class NaturalNoctilucousJadeBlock
+extends BushBlock {
+    public static final DirectionProperty FACING = BlockStateProperties.FACING;
+    private static final VoxelShape SHAPE = Block.box((double)0.0, (double)0.0, (double)1.0, (double)16.0, (double)13.0, (double)16.0);
+    private final Supplier<? extends ItemLike> mineralItem;
+    private final boolean deepslateBase;
+
+    public NaturalNoctilucousJadeBlock(BlockBehaviour.Properties properties) {
+        this(properties, (Supplier<? extends ItemLike>)TeyvatDelight.YEBOSHI, false);
+    }
+
+    public NaturalNoctilucousJadeBlock(BlockBehaviour.Properties properties, Supplier<? extends ItemLike> mineralItem, boolean deepslateBase) {
+        super(properties);
+        this.mineralItem = mineralItem;
+        this.deepslateBase = deepslateBase;
+        this.registerDefaultState((BlockState)((BlockState)this.stateDefinition.any()).setValue((Property)FACING, (Comparable)Direction.UP));
+    }
+
+
+    public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+        return SHAPE;
+    }
+
+    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+        builder.add(new Property[]{FACING});
+    }
+
+    public BlockState getStateForPlacement(BlockPlaceContext context) {
+        return (BlockState)this.defaultBlockState().setValue((Property)FACING, (Comparable)context.getClickedFace());
+    }
+
+    public boolean canSurvive(BlockState state, LevelReader level, BlockPos pos) {
+        Direction facing = (Direction)state.getValue((Property)FACING);
+        BlockPos supportPos = pos.relative(facing.getOpposite());
+        return this.deepslateBase ? level.getBlockState(supportPos).is(Blocks.DEEPSLATE) : level.getBlockState(supportPos).is(Blocks.STONE);
+    }
+
+    public boolean mayPlaceOn(BlockState state, BlockGetter level, BlockPos pos) {
+        return this.deepslateBase ? state.is(Blocks.DEEPSLATE) : state.is(Blocks.STONE);
+    }
+
+    public boolean canBeReplaced(BlockState state, BlockPlaceContext context) {
+        return false;
+    }
+
+    public ItemStack getCloneItemStack(LevelReader level, BlockPos pos, BlockState state) {
+        return new ItemStack((ItemLike)this.asItem());
+    }
+
+    public void playerDestroy(Level level, Player player, BlockPos pos, BlockState state, @Nullable BlockEntity blockEntity, ItemStack tool) {
+        super.playerDestroy(level, player, pos, state, blockEntity, tool);
+        if (!level.isClientSide && !player.isCreative() && tool.is(ItemTags.PICKAXES)) {
+            TeyvatBonusDrops.dropPrimogemFromMineral(level, pos, player, tool);
+            NaturalNoctilucousJadeBlock.popResource((Level)level, (BlockPos)pos, (ItemStack)new ItemStack(this.mineralItem.get()));
+            level.playSound(null, pos, SoundEvents.AMETHYST_BLOCK_BREAK, SoundSource.BLOCKS, 1.0f, 1.0f);
+        }
+    }
+}
+

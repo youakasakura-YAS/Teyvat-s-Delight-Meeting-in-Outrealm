@@ -1,0 +1,25 @@
+{
+    "type":  "farmersdelight:cooking",
+    "cookingtime":  100,
+    "experience":  0.35,
+    "ingredients":  [
+                        {
+                            "tag":  "c:foods/raw_cod"
+                        },
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:salt"
+                        },
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:sea_ganoderma"
+                        }
+                    ],
+    "container":  {
+                      "count":  1,
+                      "id":  "minecraft:bowl"
+                  },
+    "recipe_book_tab":  "meals",
+    "result":  {
+                   "count":  1,
+                   "id":  "teyvats_delight_meeting_in_outrealm:rain_or_shine"
+               }
+}

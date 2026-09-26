@@ -1,0 +1,294 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "botanypots"
+      ]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "teyvats_delight_meeting_in_outrealm:horsetail_top"
+      ]
+    }
+  ],
+  "type": "botanypots:crop",
+  "input": {
+    "item": "teyvats_delight_meeting_in_outrealm:horsetail_seeds"
+  },
+  "soil": {
+    "item": "teyvats_delight_meeting_in_outrealm:chu_ci_zhu_field"
+  },
+  "grow_time": 1200,
+  "display": [
+    {
+      "type": "botanypots:transitional",
+      "phases": [
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_bottom",
+            "properties": {
+              "age": "0"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              -0.2,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_bottom",
+            "properties": {
+              "age": "1"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              -0.2,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_bottom",
+            "properties": {
+              "age": "2"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              -0.2,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_bottom",
+            "properties": {
+              "age": "3"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              -0.2,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_bottom",
+            "properties": {
+              "age": "3"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              -0.2,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_bottom",
+            "properties": {
+              "age": "3"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              -0.2,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_bottom",
+            "properties": {
+              "age": "3"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              -0.2,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "botanypots:transitional",
+      "phases": [
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_top",
+            "properties": {
+              "age": "0"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              0.05625,
+              0
+            ],
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_top",
+            "properties": {
+              "age": "0"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              0.05625,
+              0
+            ],
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_top",
+            "properties": {
+              "age": "0"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              0.05625,
+              0
+            ],
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_top",
+            "properties": {
+              "age": "0"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              0.05625,
+              0
+            ],
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_top",
+            "properties": {
+              "age": "0"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              0.05625,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_top",
+            "properties": {
+              "age": "1"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              0.05625,
+              0
+            ]
+          }
+        },
+        {
+          "type": "botanypots:simple",
+          "block_state": {
+            "block": "teyvats_delight_meeting_in_outrealm:horsetail_top",
+            "properties": {
+              "age": "2"
+            }
+          },
+          "options": {
+            "offset": [
+              0,
+              0.05625,
+              0
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "teyvats_delight_meeting_in_outrealm:botanypots/crop/horsetail"
+    }
+  ]
+}

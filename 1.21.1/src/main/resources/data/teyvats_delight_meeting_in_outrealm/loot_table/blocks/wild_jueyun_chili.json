@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3.0
+            }
+          ],
+          "name": "teyvats_delight_meeting_in_outrealm:jueyun_chili"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "teyvats_delight_meeting_in_outrealm:blocks/wild_jueyun_chili"
+}

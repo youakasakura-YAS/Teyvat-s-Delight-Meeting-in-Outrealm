@@ -1,0 +1,11 @@
+{
+  "type": "teyvats_delight_meeting_in_outrealm:wild_crop_patch",
+  "config": {
+    "state": {
+      "Name": "teyvats_delight_meeting_in_outrealm:wild_grainfruit"
+    },
+    "min_count": 1,
+    "max_count": 4,
+    "xz_spread": 3
+  }
+}

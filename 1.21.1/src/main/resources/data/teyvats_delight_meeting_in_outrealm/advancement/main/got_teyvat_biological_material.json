@@ -1,0 +1,37 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/root",
+    "criteria":  {
+                     "has_teyvat_biological_material":  {
+                                                            "conditions":  {
+                                                                               "items":  [
+                                                                                             {
+                                                                                                 "items":  [
+                                                                                                               "teyvats_delight_meeting_in_outrealm:starconch",
+                                                                                                               "teyvats_delight_meeting_in_outrealm:coral_pearl"
+                                                                                                           ]
+                                                                                             }
+                                                                                         ]
+                                                                           },
+                                                            "trigger":  "minecraft:inventory_changed"
+                                                        }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.got_teyvat_biological_material.description"
+                                    },
+                    "hidden":  true,
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:starconch"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.got_teyvat_biological_material.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_teyvat_biological_material"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

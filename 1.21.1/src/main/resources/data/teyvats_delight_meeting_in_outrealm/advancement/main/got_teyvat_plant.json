@@ -1,0 +1,51 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/root",
+    "criteria":  {
+                     "has_teyvat_plant":  {
+                                              "conditions":  {
+                                                                 "items":  [
+                                                                               {
+                                                                                   "items":  [
+                                                                                                 "teyvats_delight_meeting_in_outrealm:small_lamp_grass",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:windwheel_aster",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:calla_lily",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:mint",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:jueyun_chili",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:glaze_lily",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:mufeng_mushroom",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:sumeru_rose",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:grainfruit",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:horsetail",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:jinxin_flower",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:fluorescent_fungus",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:sea_ganoderma",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:dendrobium",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:frostlamp_flower",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:yunyan_lieye"
+                                                                                             ]
+                                                                               }
+                                                                           ]
+                                                             },
+                                              "trigger":  "minecraft:inventory_changed"
+                                          }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.got_teyvat_plant.description"
+                                    },
+                    "hidden":  true,
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:small_lamp_grass"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.got_teyvat_plant.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_teyvat_plant"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

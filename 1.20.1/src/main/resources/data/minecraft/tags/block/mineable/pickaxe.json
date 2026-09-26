@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "teyvats_delight_meeting_in_outrealm:chu_ci_zhu_field",
+    "teyvats_delight_meeting_in_outrealm:xuan_ci_pu_field",
+    "teyvats_delight_meeting_in_outrealm:primogem_block",
+    "teyvats_delight_meeting_in_outrealm:mora_block",
+    "#teyvats_delight_meeting_in_outrealm:teyvat_mineral_blocks"
+  ]
+}

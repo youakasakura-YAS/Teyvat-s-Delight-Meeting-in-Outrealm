@@ -1,0 +1,38 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/root",
+    "criteria":  {
+                     "has_teyvat_mineral":  {
+                                                "conditions":  {
+                                                                   "items":  [
+                                                                                 {
+                                                                                     "items":  [
+                                                                                                   "teyvats_delight_meeting_in_outrealm:shipo",
+                                                                                                   "teyvats_delight_meeting_in_outrealm:yeboshi",
+                                                                                                   "teyvats_delight_meeting_in_outrealm:jinghuagusui"
+                                                                                               ]
+                                                                                 }
+                                                                             ]
+                                                               },
+                                                "trigger":  "minecraft:inventory_changed"
+                                            }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.got_teyvat_mineral.description"
+                                    },
+                    "hidden":  true,
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:shipo"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.got_teyvat_mineral.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_teyvat_mineral"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

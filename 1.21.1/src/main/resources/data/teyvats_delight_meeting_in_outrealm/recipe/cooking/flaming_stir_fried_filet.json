@@ -1,0 +1,25 @@
+{
+    "type":  "farmersdelight:cooking",
+    "cookingtime":  100,
+    "experience":  0.35,
+    "ingredients":  [
+                        {
+                            "tag":  "c:foods/raw_meat"
+                        },
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:jueyun_chili"
+                        },
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:yeboshi"
+                        }
+                    ],
+    "container":  {
+                      "count":  1,
+                      "id":  "minecraft:heavy_weighted_pressure_plate"
+                  },
+    "recipe_book_tab":  "meals",
+    "result":  {
+                   "count":  1,
+                   "id":  "teyvats_delight_meeting_in_outrealm:flaming_stir_fried_filet"
+               }
+}

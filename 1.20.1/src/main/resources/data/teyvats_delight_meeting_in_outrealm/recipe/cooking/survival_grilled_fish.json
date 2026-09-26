@@ -1,0 +1,25 @@
+{
+    "type":  "farmersdelight:cooking",
+    "cookingtime":  100,
+    "experience":  0.35,
+    "ingredients":  [
+                        {
+              "item":  "minecraft:cod"
+                        },
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:pepper"
+                        },
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:shipo"
+                        }
+                    ],
+    "container":  {
+                      "count":  1,
+                      "id":  "minecraft:stick"
+                  },
+    "recipe_book_tab":  "meals",
+    "result":  {
+                   "count":  1,
+                   "id":  "teyvats_delight_meeting_in_outrealm:survival_grilled_fish"
+               }
+}

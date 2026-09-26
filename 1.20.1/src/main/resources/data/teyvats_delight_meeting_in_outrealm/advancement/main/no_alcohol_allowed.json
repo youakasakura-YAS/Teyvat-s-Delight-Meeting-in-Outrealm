@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/heartbeat_memory",
+    "criteria":  {
+                     "has_definitely_not_bar_food":  {
+                                                         "conditions":  {
+                                                                            "items":  [
+                                                                                          {
+                                                                                              "items":  [
+                                                                                                            "teyvats_delight_meeting_in_outrealm:definitely_not_bar_food"
+                                                                                                        ]
+                                                                                          }
+                                                                                      ]
+                                                                        },
+                                                         "trigger":  "minecraft:inventory_changed"
+                                                     }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.no_alcohol_allowed.description"
+                                    },
+                    "frame":  "goal",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:definitely_not_bar_food"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.no_alcohol_allowed.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_definitely_not_bar_food"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

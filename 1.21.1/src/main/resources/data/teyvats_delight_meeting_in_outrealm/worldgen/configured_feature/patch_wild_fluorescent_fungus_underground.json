@@ -1,0 +1,12 @@
+{
+  "type": "teyvats_delight_meeting_in_outrealm:mineral_patch",
+  "config": {
+    "state": {
+      "Name": "teyvats_delight_meeting_in_outrealm:wild_fluorescent_fungus"
+    },
+    "min_count": 1,
+    "max_count": 4,
+    "xz_spread": 3,
+    "y_spread": 8
+  }
+}

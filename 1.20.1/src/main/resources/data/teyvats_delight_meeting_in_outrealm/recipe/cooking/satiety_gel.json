@@ -1,0 +1,25 @@
+{
+    "type":  "farmersdelight:cooking",
+    "cookingtime":  100,
+    "experience":  0.35,
+    "ingredients":  [
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:mint"
+                        },
+                        {
+                            "item":  "minecraft:sugar"
+                        },
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:jinghuagusui"
+                        }
+                    ],
+    "container":  {
+                      "count":  1,
+                      "id":  "minecraft:heavy_weighted_pressure_plate"
+                  },
+    "recipe_book_tab":  "meals",
+    "result":  {
+                   "count":  1,
+                   "id":  "teyvats_delight_meeting_in_outrealm:satiety_gel"
+               }
+}

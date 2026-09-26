@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/heartbeat_memory",
+    "criteria":  {
+                     "has_qiankun_mora_meat":  {
+                                                   "conditions":  {
+                                                                      "items":  [
+                                                                                    {
+                                                                                        "items":  [
+                                                                                                      "teyvats_delight_meeting_in_outrealm:qiankun_mora_meat"
+                                                                                                  ]
+                                                                                    }
+                                                                                ]
+                                                                  },
+                                                   "trigger":  "minecraft:inventory_changed"
+                                               }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.tianquan_craft.description"
+                                    },
+                    "frame":  "goal",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:qiankun_mora_meat"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.tianquan_craft.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_qiankun_mora_meat"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

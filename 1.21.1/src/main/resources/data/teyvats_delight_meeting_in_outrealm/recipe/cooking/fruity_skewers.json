@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "c:foods/raw_chicken"
+    },
+    {
+      "tag": "c:mushrooms"
+    },
+    {
+      "item": "teyvats_delight_meeting_in_outrealm:calla_lily"
+    }
+  ],
+  "container": {
+    "count": 1,
+    "id": "minecraft:stick"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "teyvats_delight_meeting_in_outrealm:fruity_skewers"
+  }
+}

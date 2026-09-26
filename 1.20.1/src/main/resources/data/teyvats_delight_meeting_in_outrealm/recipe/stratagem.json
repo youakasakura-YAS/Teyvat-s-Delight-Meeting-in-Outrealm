@@ -1,0 +1,22 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "category":  "food",
+    "ingredients":  [
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:bird_egg_yaki"
+                        },
+                        {
+                            "item":  "farmersdelight:cooked_rice"
+                        },
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:coral_pearl"
+                        },
+                        {
+                            "tag":  "minecraft:planks"
+                        }
+                    ],
+    "result":  {
+                   "count":  1,
+                   "id":  "teyvats_delight_meeting_in_outrealm:stratagem"
+               }
+}

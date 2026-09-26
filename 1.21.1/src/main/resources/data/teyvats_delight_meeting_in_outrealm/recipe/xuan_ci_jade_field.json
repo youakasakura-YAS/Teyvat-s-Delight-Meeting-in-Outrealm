@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "MPM",
+    "DED"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "M": {
+      "item": "teyvats_delight_meeting_in_outrealm:mora"
+    },
+    "P": {
+      "item": "teyvats_delight_meeting_in_outrealm:primogem"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "teyvats_delight_meeting_in_outrealm:xuan_ci_jade_field"
+  }
+}

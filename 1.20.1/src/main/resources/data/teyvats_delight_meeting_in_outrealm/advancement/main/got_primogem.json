@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/got_mora",
+    "criteria":  {
+                     "has_primogem":  {
+                                          "conditions":  {
+                                                             "items":  [
+                                                                           {
+                                                                               "items":  [
+                                                                                             "teyvats_delight_meeting_in_outrealm:primogem"
+                                                                                         ]
+                                                                           }
+                                                                       ]
+                                                         },
+                                          "trigger":  "minecraft:inventory_changed"
+                                      }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.got_primogem.description"
+                                    },
+                    "hidden":  true,
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:primogem"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.got_primogem.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_primogem"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

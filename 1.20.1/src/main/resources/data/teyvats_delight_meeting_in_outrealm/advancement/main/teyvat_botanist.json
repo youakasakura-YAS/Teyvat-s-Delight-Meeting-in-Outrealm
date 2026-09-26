@@ -1,0 +1,261 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/got_teyvat_plant",
+    "criteria":  {
+                     "small_lamp_grass":  {
+                                              "conditions":  {
+                                                                 "items":  [
+                                                                               {
+                                                                                   "items":  [
+                                                                                                 "teyvats_delight_meeting_in_outrealm:small_lamp_grass"
+                                                                                             ]
+                                                                               }
+                                                                           ]
+                                                             },
+                                              "trigger":  "minecraft:inventory_changed"
+                                          },
+                     "windwheel_aster":  {
+                                             "conditions":  {
+                                                                "items":  [
+                                                                              {
+                                                                                  "items":  [
+                                                                                                "teyvats_delight_meeting_in_outrealm:windwheel_aster"
+                                                                                            ]
+                                                                              }
+                                                                          ]
+                                                            },
+                                             "trigger":  "minecraft:inventory_changed"
+                                         },
+                     "calla_lily":  {
+                                        "conditions":  {
+                                                           "items":  [
+                                                                         {
+                                                                             "items":  [
+                                                                                           "teyvats_delight_meeting_in_outrealm:calla_lily"
+                                                                                       ]
+                                                                         }
+                                                                     ]
+                                                       },
+                                        "trigger":  "minecraft:inventory_changed"
+                                    },
+                     "mint":  {
+                                  "conditions":  {
+                                                     "items":  [
+                                                                   {
+                                                                       "items":  [
+                                                                                     "teyvats_delight_meeting_in_outrealm:mint"
+                                                                                 ]
+                                                                   }
+                                                               ]
+                                                 },
+                                  "trigger":  "minecraft:inventory_changed"
+                              },
+                     "jueyun_chili":  {
+                                          "conditions":  {
+                                                             "items":  [
+                                                                           {
+                                                                               "items":  [
+                                                                                             "teyvats_delight_meeting_in_outrealm:jueyun_chili"
+                                                                                         ]
+                                                                           }
+                                                                       ]
+                                                         },
+                                          "trigger":  "minecraft:inventory_changed"
+                                      },
+                     "glaze_lily":  {
+                                        "conditions":  {
+                                                           "items":  [
+                                                                         {
+                                                                             "items":  [
+                                                                                           "teyvats_delight_meeting_in_outrealm:glaze_lily"
+                                                                                       ]
+                                                                         }
+                                                                     ]
+                                                       },
+                                        "trigger":  "minecraft:inventory_changed"
+                                    },
+                     "mufeng_mushroom":  {
+                                             "conditions":  {
+                                                                "items":  [
+                                                                              {
+                                                                                  "items":  [
+                                                                                                "teyvats_delight_meeting_in_outrealm:mufeng_mushroom"
+                                                                                            ]
+                                                                              }
+                                                                          ]
+                                                            },
+                                             "trigger":  "minecraft:inventory_changed"
+                                         },
+                     "sumeru_rose":  {
+                                         "conditions":  {
+                                                            "items":  [
+                                                                          {
+                                                                              "items":  [
+                                                                                            "teyvats_delight_meeting_in_outrealm:sumeru_rose"
+                                                                                        ]
+                                                                          }
+                                                                      ]
+                                                        },
+                                         "trigger":  "minecraft:inventory_changed"
+                                     },
+                     "grainfruit":  {
+                                        "conditions":  {
+                                                           "items":  [
+                                                                         {
+                                                                             "items":  [
+                                                                                           "teyvats_delight_meeting_in_outrealm:grainfruit"
+                                                                                       ]
+                                                                         }
+                                                                     ]
+                                                       },
+                                        "trigger":  "minecraft:inventory_changed"
+                                    },
+                     "horsetail":  {
+                                       "conditions":  {
+                                                          "items":  [
+                                                                        {
+                                                                            "items":  [
+                                                                                          "teyvats_delight_meeting_in_outrealm:horsetail"
+                                                                                      ]
+                                                                        }
+                                                                    ]
+                                                      },
+                                       "trigger":  "minecraft:inventory_changed"
+                                   },
+                     "jinxin_flower":  {
+                                           "conditions":  {
+                                                              "items":  [
+                                                                            {
+                                                                                "items":  [
+                                                                                              "teyvats_delight_meeting_in_outrealm:jinxin_flower"
+                                                                                          ]
+                                                                            }
+                                                                        ]
+                                                          },
+                                           "trigger":  "minecraft:inventory_changed"
+                                       },
+                     "fluorescent_fungus":  {
+                                                "conditions":  {
+                                                                   "items":  [
+                                                                                 {
+                                                                                     "items":  [
+                                                                                                   "teyvats_delight_meeting_in_outrealm:fluorescent_fungus"
+                                                                                               ]
+                                                                                 }
+                                                                             ]
+                                                               },
+                                                "trigger":  "minecraft:inventory_changed"
+                                            },
+                     "sea_ganoderma":  {
+                                           "conditions":  {
+                                                              "items":  [
+                                                                            {
+                                                                                "items":  [
+                                                                                              "teyvats_delight_meeting_in_outrealm:sea_ganoderma"
+                                                                                          ]
+                                                                            }
+                                                                        ]
+                                                          },
+                                           "trigger":  "minecraft:inventory_changed"
+                                       },
+                     "dendrobium":  {
+                                        "conditions":  {
+                                                           "items":  [
+                                                                         {
+                                                                             "items":  [
+                                                                                           "teyvats_delight_meeting_in_outrealm:dendrobium"
+                                                                                       ]
+                                                                         }
+                                                                     ]
+                                                       },
+                                        "trigger":  "minecraft:inventory_changed"
+                                    },
+                     "frostlamp_flower":  {
+                                              "conditions":  {
+                                                                 "items":  [
+                                                                               {
+                                                                                   "items":  [
+                                                                                                 "teyvats_delight_meeting_in_outrealm:frostlamp_flower"
+                                                                                             ]
+                                                                               }
+                                                                           ]
+                                                             },
+                                              "trigger":  "minecraft:inventory_changed"
+                                          },
+                     "yunyan_lieye":  {
+                                          "conditions":  {
+                                                             "items":  [
+                                                                           {
+                                                                               "items":  [
+                                                                                             "teyvats_delight_meeting_in_outrealm:yunyan_lieye"
+                                                                                         ]
+                                                                           }
+                                                                       ]
+                                                         },
+                                          "trigger":  "minecraft:inventory_changed"
+                                      }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.teyvat_botanist.description"
+                                    },
+                    "frame":  "challenge",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:glaze_lily"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.teyvat_botanist.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "small_lamp_grass"
+                         ],
+                         [
+                             "windwheel_aster"
+                         ],
+                         [
+                             "calla_lily"
+                         ],
+                         [
+                             "mint"
+                         ],
+                         [
+                             "jueyun_chili"
+                         ],
+                         [
+                             "glaze_lily"
+                         ],
+                         [
+                             "mufeng_mushroom"
+                         ],
+                         [
+                             "sumeru_rose"
+                         ],
+                         [
+                             "grainfruit"
+                         ],
+                         [
+                             "horsetail"
+                         ],
+                         [
+                             "jinxin_flower"
+                         ],
+                         [
+                             "fluorescent_fungus"
+                         ],
+                         [
+                             "sea_ganoderma"
+                         ],
+                         [
+                             "dendrobium"
+                         ],
+                         [
+                             "frostlamp_flower"
+                         ],
+                         [
+                             "yunyan_lieye"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

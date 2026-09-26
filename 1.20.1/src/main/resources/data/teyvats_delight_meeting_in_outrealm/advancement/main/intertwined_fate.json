@@ -1,0 +1,50 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/root",
+    "criteria":  {
+                     "has_special_dish":  {
+                                              "conditions":  {
+                                                                 "items":  [
+                                                                               {
+                                                                                   "items":  [
+                                                                                                 "teyvats_delight_meeting_in_outrealm:fruity_skewers",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:teyvat_scorched_egg",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:outriders_champion_steak",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:flaming_stir_fried_filet",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:qiankun_mora_meat",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:definitely_not_bar_food",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:leisure_tea",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:rain_or_shine",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:eternal_faith",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:satiety_gel",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:stratagem",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:warmth",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:catch_of_the_dark_depths",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:long_night_flame",
+                                                                                                 "teyvats_delight_meeting_in_outrealm:survival_grilled_fish"
+                                                                                             ]
+                                                                               }
+                                                                           ]
+                                                             },
+                                              "trigger":  "minecraft:inventory_changed"
+                                          }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.intertwined_fate.description"
+                                    },
+                    "hidden":  true,
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:fruity_skewers"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.intertwined_fate.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_special_dish"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

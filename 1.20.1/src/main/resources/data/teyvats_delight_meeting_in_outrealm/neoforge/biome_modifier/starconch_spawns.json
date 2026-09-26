@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "minecraft:beach",
+  "spawners": {
+    "type": "teyvats_delight_meeting_in_outrealm:starconch",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

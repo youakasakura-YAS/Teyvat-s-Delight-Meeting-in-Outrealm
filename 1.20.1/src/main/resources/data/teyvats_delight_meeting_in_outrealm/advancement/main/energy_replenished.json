@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/heartbeat_memory",
+    "criteria":  {
+                     "has_stratagem":  {
+                                           "conditions":  {
+                                                              "items":  [
+                                                                            {
+                                                                                "items":  [
+                                                                                              "teyvats_delight_meeting_in_outrealm:stratagem"
+                                                                                          ]
+                                                                            }
+                                                                        ]
+                                                          },
+                                           "trigger":  "minecraft:inventory_changed"
+                                       }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.energy_replenished.description"
+                                    },
+                    "frame":  "goal",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:stratagem"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.energy_replenished.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_stratagem"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

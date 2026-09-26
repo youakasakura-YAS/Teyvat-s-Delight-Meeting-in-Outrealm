@@ -1,0 +1,246 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/intertwined_fate",
+    "criteria":  {
+                     "fruity_skewers":  {
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "items":  [
+                                                                                               "teyvats_delight_meeting_in_outrealm:fruity_skewers"
+                                                                                           ]
+                                                                             }
+                                                                         ]
+                                                           },
+                                            "trigger":  "minecraft:inventory_changed"
+                                        },
+                     "teyvat_scorched_egg":  {
+                                                 "conditions":  {
+                                                                    "items":  [
+                                                                                  {
+                                                                                      "items":  [
+                                                                                                    "teyvats_delight_meeting_in_outrealm:teyvat_scorched_egg"
+                                                                                                ]
+                                                                                  }
+                                                                              ]
+                                                                },
+                                                 "trigger":  "minecraft:inventory_changed"
+                                             },
+                     "outriders_champion_steak":  {
+                                                      "conditions":  {
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "items":  [
+                                                                                                         "teyvats_delight_meeting_in_outrealm:outriders_champion_steak"
+                                                                                                     ]
+                                                                                       }
+                                                                                   ]
+                                                                     },
+                                                      "trigger":  "minecraft:inventory_changed"
+                                                  },
+                     "flaming_stir_fried_filet":  {
+                                                      "conditions":  {
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "items":  [
+                                                                                                         "teyvats_delight_meeting_in_outrealm:flaming_stir_fried_filet"
+                                                                                                     ]
+                                                                                       }
+                                                                                   ]
+                                                                     },
+                                                      "trigger":  "minecraft:inventory_changed"
+                                                  },
+                     "qiankun_mora_meat":  {
+                                               "conditions":  {
+                                                                  "items":  [
+                                                                                {
+                                                                                    "items":  [
+                                                                                                  "teyvats_delight_meeting_in_outrealm:qiankun_mora_meat"
+                                                                                              ]
+                                                                                }
+                                                                            ]
+                                                              },
+                                               "trigger":  "minecraft:inventory_changed"
+                                           },
+                     "definitely_not_bar_food":  {
+                                                     "conditions":  {
+                                                                        "items":  [
+                                                                                      {
+                                                                                          "items":  [
+                                                                                                        "teyvats_delight_meeting_in_outrealm:definitely_not_bar_food"
+                                                                                                    ]
+                                                                                      }
+                                                                                  ]
+                                                                    },
+                                                     "trigger":  "minecraft:inventory_changed"
+                                                 },
+                     "leisure_tea":  {
+                                         "conditions":  {
+                                                            "items":  [
+                                                                          {
+                                                                              "items":  [
+                                                                                            "teyvats_delight_meeting_in_outrealm:leisure_tea"
+                                                                                        ]
+                                                                          }
+                                                                      ]
+                                                        },
+                                         "trigger":  "minecraft:inventory_changed"
+                                     },
+                     "rain_or_shine":  {
+                                           "conditions":  {
+                                                              "items":  [
+                                                                            {
+                                                                                "items":  [
+                                                                                              "teyvats_delight_meeting_in_outrealm:rain_or_shine"
+                                                                                          ]
+                                                                            }
+                                                                        ]
+                                                          },
+                                           "trigger":  "minecraft:inventory_changed"
+                                       },
+                     "eternal_faith":  {
+                                           "conditions":  {
+                                                              "items":  [
+                                                                            {
+                                                                                "items":  [
+                                                                                              "teyvats_delight_meeting_in_outrealm:eternal_faith"
+                                                                                          ]
+                                                                            }
+                                                                        ]
+                                                          },
+                                           "trigger":  "minecraft:inventory_changed"
+                                       },
+                     "satiety_gel":  {
+                                         "conditions":  {
+                                                            "items":  [
+                                                                          {
+                                                                              "items":  [
+                                                                                            "teyvats_delight_meeting_in_outrealm:satiety_gel"
+                                                                                        ]
+                                                                          }
+                                                                      ]
+                                                        },
+                                         "trigger":  "minecraft:inventory_changed"
+                                     },
+                     "stratagem":  {
+                                       "conditions":  {
+                                                          "items":  [
+                                                                        {
+                                                                            "items":  [
+                                                                                          "teyvats_delight_meeting_in_outrealm:stratagem"
+                                                                                      ]
+                                                                        }
+                                                                    ]
+                                                      },
+                                       "trigger":  "minecraft:inventory_changed"
+                                   },
+                     "warmth":  {
+                                    "conditions":  {
+                                                       "items":  [
+                                                                     {
+                                                                         "items":  [
+                                                                                       "teyvats_delight_meeting_in_outrealm:warmth"
+                                                                                   ]
+                                                                     }
+                                                                 ]
+                                                   },
+                                    "trigger":  "minecraft:inventory_changed"
+                                },
+                     "catch_of_the_dark_depths":  {
+                                                      "conditions":  {
+                                                                         "items":  [
+                                                                                       {
+                                                                                           "items":  [
+                                                                                                         "teyvats_delight_meeting_in_outrealm:catch_of_the_dark_depths"
+                                                                                                     ]
+                                                                                       }
+                                                                                   ]
+                                                                     },
+                                                      "trigger":  "minecraft:inventory_changed"
+                                                  },
+                     "long_night_flame":  {
+                                              "conditions":  {
+                                                                 "items":  [
+                                                                               {
+                                                                                   "items":  [
+                                                                                                 "teyvats_delight_meeting_in_outrealm:long_night_flame"
+                                                                                             ]
+                                                                               }
+                                                                           ]
+                                                             },
+                                              "trigger":  "minecraft:inventory_changed"
+                                          },
+                     "survival_grilled_fish":  {
+                                                   "conditions":  {
+                                                                      "items":  [
+                                                                                    {
+                                                                                        "items":  [
+                                                                                                      "teyvats_delight_meeting_in_outrealm:survival_grilled_fish"
+                                                                                                  ]
+                                                                                    }
+                                                                                ]
+                                                                  },
+                                                   "trigger":  "minecraft:inventory_changed"
+                                               }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.heartbeat_memory.description"
+                                    },
+                    "frame":  "challenge",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:outriders_champion_steak"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.heartbeat_memory.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "fruity_skewers"
+                         ],
+                         [
+                             "teyvat_scorched_egg"
+                         ],
+                         [
+                             "outriders_champion_steak"
+                         ],
+                         [
+                             "flaming_stir_fried_filet"
+                         ],
+                         [
+                             "qiankun_mora_meat"
+                         ],
+                         [
+                             "definitely_not_bar_food"
+                         ],
+                         [
+                             "leisure_tea"
+                         ],
+                         [
+                             "rain_or_shine"
+                         ],
+                         [
+                             "eternal_faith"
+                         ],
+                         [
+                             "satiety_gel"
+                         ],
+                         [
+                             "stratagem"
+                         ],
+                         [
+                             "warmth"
+                         ],
+                         [
+                             "catch_of_the_dark_depths"
+                         ],
+                         [
+                             "long_night_flame"
+                         ],
+                         [
+                             "survival_grilled_fish"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

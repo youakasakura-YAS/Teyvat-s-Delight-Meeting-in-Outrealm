@@ -1,0 +1,19 @@
+{
+    "type":  "farmersdelight:cooking",
+    "cookingtime":  100,
+    "experience":  0.35,
+    "ingredients":  [
+                        {
+                            "item":  "teyvats_delight_meeting_in_outrealm:chenyu_tea"
+                        }
+                    ],
+    "container":  {
+                      "count":  1,
+                      "id":  "minecraft:bowl"
+                  },
+    "recipe_book_tab":  "meals",
+    "result":  {
+                   "count":  1,
+                   "id":  "teyvats_delight_meeting_in_outrealm:large_bowl_of_tea"
+               }
+}

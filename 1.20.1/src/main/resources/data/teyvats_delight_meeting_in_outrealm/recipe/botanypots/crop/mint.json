@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "botanypots"
+      ]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botanypots"
+    }
+  ],
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "teyvats_delight_meeting_in_outrealm:mint_crop"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "teyvats_delight_meeting_in_outrealm:mint_crop",
+  "input": {
+    "item": "teyvats_delight_meeting_in_outrealm:mint_seeds"
+  },
+  "soil": {
+    "item": "teyvats_delight_meeting_in_outrealm:xuan_ci_jade_field"
+  }
+}

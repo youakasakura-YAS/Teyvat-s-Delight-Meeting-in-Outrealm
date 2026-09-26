@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/heartbeat_memory",
+    "criteria":  {
+                     "has_teyvat_scorched_egg":  {
+                                                     "conditions":  {
+                                                                        "items":  [
+                                                                                      {
+                                                                                          "items":  [
+                                                                                                        "teyvats_delight_meeting_in_outrealm:teyvat_scorched_egg"
+                                                                                                    ]
+                                                                                      }
+                                                                                  ]
+                                                                    },
+                                                     "trigger":  "minecraft:inventory_changed"
+                                                 }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.benny_adventure_team_set_out.description"
+                                    },
+                    "frame":  "goal",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:teyvat_scorched_egg"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.benny_adventure_team_set_out.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_teyvat_scorched_egg"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

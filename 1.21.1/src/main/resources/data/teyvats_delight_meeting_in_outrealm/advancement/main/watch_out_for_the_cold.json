@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/heartbeat_memory",
+    "criteria":  {
+                     "has_fruity_skewers":  {
+                                                "conditions":  {
+                                                                   "items":  [
+                                                                                 {
+                                                                                     "items":  [
+                                                                                                   "teyvats_delight_meeting_in_outrealm:fruity_skewers"
+                                                                                               ]
+                                                                                 }
+                                                                             ]
+                                                               },
+                                                "trigger":  "minecraft:inventory_changed"
+                                            }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.watch_out_for_the_cold.description"
+                                    },
+                    "frame":  "goal",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:fruity_skewers"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.watch_out_for_the_cold.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_fruity_skewers"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

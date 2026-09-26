@@ -1,0 +1,38 @@
+{
+    "parent":  "minecraft:recipes/root",
+    "criteria":  {
+                     "has_any_ingredient":  {
+                                                "trigger":  "minecraft:inventory_changed",
+                                                "conditions":  {
+                                                                   "items":  [
+                                                                                 {
+                                                                                     "items":  [
+                                                                                                   "minecraft:cod",
+                                                                                                   "minecraft:salmon",
+                                                                                                   "teyvats_delight_meeting_in_outrealm:almond"
+                                                                                               ]
+                                                                                 }
+                                                                             ]
+                                                               }
+                                            },
+                     "has_the_recipe":  {
+                                            "trigger":  "minecraft:recipe_unlocked",
+                                            "conditions":  {
+                                                               "recipe":  "teyvats_delight_meeting_in_outrealm:cooking/almond_trout"
+                                                           }
+                                        }
+                 },
+    "requirements":  [
+                         [
+                             "has_the_recipe"
+                         ],
+                         [
+                             "has_any_ingredient"
+                         ]
+                     ],
+    "rewards":  {
+                    "recipes":  [
+                                    "teyvats_delight_meeting_in_outrealm:cooking/almond_trout"
+                                ]
+                }
+}

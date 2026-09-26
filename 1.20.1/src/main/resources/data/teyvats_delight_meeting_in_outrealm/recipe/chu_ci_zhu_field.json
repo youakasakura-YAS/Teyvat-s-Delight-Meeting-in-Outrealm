@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "MPM",
+    "CEC"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sand"
+    },
+    "M": {
+      "item": "teyvats_delight_meeting_in_outrealm:mora"
+    },
+    "P": {
+      "item": "teyvats_delight_meeting_in_outrealm:primogem"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "teyvats_delight_meeting_in_outrealm:chu_ci_zhu_field"
+  }
+}

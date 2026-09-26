@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/heartbeat_memory",
+    "criteria":  {
+                     "has_rain_or_shine":  {
+                                               "conditions":  {
+                                                                  "items":  [
+                                                                                {
+                                                                                    "items":  [
+                                                                                                  "teyvats_delight_meeting_in_outrealm:rain_or_shine"
+                                                                                              ]
+                                                                                }
+                                                                            ]
+                                                              },
+                                               "trigger":  "minecraft:inventory_changed"
+                                           }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.one_grill_of_kazuha.description"
+                                    },
+                    "frame":  "goal",
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:rain_or_shine"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.one_grill_of_kazuha.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_rain_or_shine"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

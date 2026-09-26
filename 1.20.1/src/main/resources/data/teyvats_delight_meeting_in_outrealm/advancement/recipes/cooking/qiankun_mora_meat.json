@@ -1,0 +1,42 @@
+{
+    "parent":  "minecraft:recipes/root",
+    "criteria":  {
+                     "has_any_ingredient":  {
+                                                "trigger":  "minecraft:inventory_changed",
+                                                "conditions":  {
+                                                                   "items":  [
+                                                                                 {
+                                                                                     "items":  [
+                                                                                                   "minecraft:beef",
+                                                                                                   "minecraft:porkchop",
+                                                                                                   "minecraft:chicken",
+                                                                                                   "minecraft:rabbit",
+                                                                                                   "minecraft:mutton",
+                                                                                                   "minecraft:wheat",
+                                                                                                   "teyvats_delight_meeting_in_outrealm:glaze_lily"
+                                                                                               ]
+                                                                                 }
+                                                                             ]
+                                                               }
+                                            },
+                     "has_the_recipe":  {
+                                            "trigger":  "minecraft:recipe_unlocked",
+                                            "conditions":  {
+                                                               "recipe":  "teyvats_delight_meeting_in_outrealm:cooking/qiankun_mora_meat"
+                                                           }
+                                        }
+                 },
+    "requirements":  [
+                         [
+                             "has_the_recipe"
+                         ],
+                         [
+                             "has_any_ingredient"
+                         ]
+                     ],
+    "rewards":  {
+                    "recipes":  [
+                                    "teyvats_delight_meeting_in_outrealm:cooking/qiankun_mora_meat"
+                                ]
+                }
+}

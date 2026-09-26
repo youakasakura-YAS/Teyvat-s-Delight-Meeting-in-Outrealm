@@ -1,0 +1,36 @@
+{
+    "parent":  "teyvats_delight_meeting_in_outrealm:main/root",
+    "criteria":  {
+                     "has_mora":  {
+                                      "conditions":  {
+                                                         "items":  [
+                                                                       {
+                                                                           "items":  [
+                                                                                         "teyvats_delight_meeting_in_outrealm:mora"
+                                                                                     ]
+                                                                       }
+                                                                   ]
+                                                     },
+                                      "trigger":  "minecraft:inventory_changed"
+                                  }
+                 },
+    "display":  {
+                    "description":  {
+                                        "translate":  "advancements.teyvats_delight_meeting_in_outrealm.got_mora.description"
+                                    },
+                    "hidden":  true,
+                    "icon":  {
+                                 "count":  1,
+                                 "id":  "teyvats_delight_meeting_in_outrealm:mora"
+                             },
+                    "title":  {
+                                  "translate":  "advancements.teyvats_delight_meeting_in_outrealm.got_mora.title"
+                              }
+                },
+    "requirements":  [
+                         [
+                             "has_mora"
+                         ]
+                     ],
+    "sends_telemetry_event":  true
+}

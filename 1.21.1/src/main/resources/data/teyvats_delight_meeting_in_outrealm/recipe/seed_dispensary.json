@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PMP",
+    "MSM",
+    "PGP"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "M": {
+      "item": "teyvats_delight_meeting_in_outrealm:mora"
+    },
+    "S": {
+      "tag": "teyvats_delight_meeting_in_outrealm:teyvat_crop_seeds"
+    },
+    "G": {
+      "item": "teyvats_delight_meeting_in_outrealm:primogem"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "teyvats_delight_meeting_in_outrealm:seed_dispensary"
+  }
+}
